@@ -32,11 +32,11 @@ The project combines PostgreSQL, Python-based EDA, and Power BI dashboard to sim
 
 ---
 
- 📈 Key Business Questions Answered
-- How long does it typically take for a startup to become a unicorn?
-- Which industries and cities dominate unicorn creation?
-- Which investors have the highest exposure to unicorns?
-- Can funding patterns predict future unicorns?
+ 📈 Key Business Questions Answered in python
+- Which investors have funded the most unicorns?
+- Which countries have the most unicorns? Are there any cities that appear to be industry hubs?
+- How long does it usually take for a company to become a unicorn? Has it always been this way?
+- Which unicorn companies have had the biggest return on investment?
 
 ---
 
@@ -44,7 +44,7 @@ The project combines PostgreSQL, Python-based EDA, and Power BI dashboard to sim
 The dashboard includes:
 - Unicorn distribution by country and city
 - Industry-wise valuation trends
--unicorn development over a decade
+- unicorn development over a decade
 ---
 
  🧠 Skills Demonstrated
@@ -53,14 +53,6 @@ The dashboard includes:
 - Exploratory Data Analysis (EDA)
 - Data visualization & storytelling
 - Business interpretation of data insights
-
----
-
- ▶️ How to Run This Project
-1. Load CSVs into PostgreSQL using scripts in `/sql/`
-2. Execute schema and view creation scripts
-3. Run Python notebooks in order from `/notebooks/`
-4. Open Power BI dashboard from `/powerbi/`
 
 ---
 
